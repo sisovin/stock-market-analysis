@@ -90,6 +90,65 @@ This project aims to provide a comprehensive analysis of stock market data. It i
   - `tsconfig.json`
 - Environment variables (`.env.local`)
 
+#### Public Assets
+- `favicon.ico`
+- `vercel.svg` (optional)
+
+#### Components
+- `MarketTable.tsx`
+- `Watchlist.tsx`
+- `MarketSummary.tsx`
+- `NewsFeed.tsx`
+- `StockChart.tsx`
+- `index.ts` (barrel file)
+
+#### Features (Redux)
+##### Market
+- `marketSlice.ts`
+- `marketAPI.ts`
+
+##### Watchlist
+- `watchlistSlice.ts`
+- `watchlistAPI.ts`
+
+##### Auth
+- `authSlice.ts`
+- `authAPI.ts`
+
+#### Hooks
+- `useAppDispatch.ts`
+
+#### Pages
+##### API routes:
+- `hello.ts`
+##### Core pages:
+- `_app.tsx`
+- `_document.tsx`
+- `index.tsx`
+- `markets.tsx`
+- `watchlist.tsx`
+- `404.tsx`
+
+#### Styles
+- `globals.css`
+- `theme.ts`
+
+#### Types
+- `marketData.d.ts`
+
+#### Utilities
+- `api.ts` (API client)
+- `formatters.ts` (data formatting helpers)
+
+#### State Management
+- `store.ts` (Redux store configuration)
+
+## Development Workflow
+- Set up scripts in root `package.json`
+- Configure shared dependencies
+- Implement CI/CD pipeline (optional)
+- Add testing framework (Jest, Cypress)
+
 ## Usage
 1. Clone the repository
 2. Install dependencies using `pnpm install`
