@@ -16,5 +16,23 @@
     "lint-staged": "^11.0.0",
     "commitlint": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "next": "^11.1.2",
+    "redux": "^4.1.0",
+    "react-redux": "^7.2.4",
+    "redux-thunk": "^2.3.0",
+    "axios": "^0.21.1",
+    "tailwindcss": "^2.2.16",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6"
   }
 }
